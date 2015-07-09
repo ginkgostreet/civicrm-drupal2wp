@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# create a copy of this file named migrate.conf and make your configurations there
+
+CIVICRM_VER="" # e.g., 4.6.4
+
+STAGING_DB_CMS=""
+STAGING_DB_CRM="" # this is the CiviCRM instance to be migrated (i.e., associated with Drupal)
+STAGING_URL="" # no www. subdomain, please
+STAGING_WEBROOT="" # no trailing slash, please
+
+PROD_DB_CMS=""
+PROD_DB_CRM=""
+PROD_URL="" # no www. subdomain, please
+PROD_WEBROOT="" # no trailing slash, please
+
+# path to executable search-and-replace DB utility
+SRDB="" # e.g., /home/me/utils/Search-Replace-DB-master/srdb.cli.php
